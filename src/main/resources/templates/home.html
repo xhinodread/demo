@@ -1,0 +1,20 @@
+<html lang="es" xmlns:th="http://www.thymeleaf.org" >
+<head><title>Home Page</title></head>
+<body>
+<h1>Hello !</h1>
+<p>Welcome to <span th:text="${appName}"> Our App.......</span></p>
+<p><span > chileregion</span></p>
+Our App.......
+<div>
+    <p>
+        <button onclick="books()" >
+            Libros
+        </button>
+    </p>
+</div>
+
+</body>
+<script>
+    const books =()=>{ window.location =("/books"); }
+</script>
+</html>
